@@ -1,16 +1,18 @@
 {
-  "version": 1,
+  "version": 2,
   "motivation_lines": [
     "रुकना हार है, चलते रहना ही जीत है",
     "आज की मेहनत, कल की पहचान है",
     "खुद पर यकीन रखो, रास्ते खुद बनते हैं",
     "मुश्किलें आती हैं ताकि तुम और मज़बूत बनो",
-    "जो ठान लिया, वो कर दिखाओ"
+    "जो ठान लिया, वो कर दिखाओ",
+    "थक जाओ तो रुकना मत, बस साँस लेकर फिर चल पड़ना"
   ],
   "qa": [
     {"phrases": ["sxt ka matlab", "sxt matlab", "sxt kya hai"], "answer": "SXT ka matlab hai Shivam X Thakur — Think, Understand, Act, Complete. Ye mera apna personal AI assistant hai."},
     {"phrases": ["feature pack kya hai", "feature pack"], "answer": "Feature Pack ek online file hai jisse mujhe naye features milte hain — nayi motivation lines, ready-made jawab aur naye voice commands — bina naya APK build kiye. Tum bas naya feature bolo, pack badal jayega aur main use khud utha lunga."},
-    {"phrases": ["tumhara version", "kaunsa version", "version kya hai"], "answer": "Main abhi SXT version 7.0 par chal raha hoon — ye wahi version hai jisme Feature Pack system aaya hai."}
+    {"phrases": ["tumhara version", "kaunsa version", "version kya hai"], "answer": "Main abhi SXT version 7.0 par chal raha hoon — ye wahi version hai jisme Feature Pack system aaya hai."},
+    {"phrases": ["tum kya kya kar sakte ho", "tum kya kar sakte ho", "kya kya kar sakte ho"], "answer": "Main awaaz se apps khol sakta hoon, alarm aur torch chala sakta hoon, volume badha-ghata sakta hoon, sawalon ke jawab de sakta hoon, motivation suna sakta hoon, aur tum jo sikhao woh yaad rakh sakta hoon. Feature Pack se mere naye features bina naye APK ke aate rehte hain."}
   ],
   "commands": [
     {"phrase": "music time", "action": {"action": "open_app", "app": "spotify"}},
