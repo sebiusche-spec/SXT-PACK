@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "motivation_lines": [
+    "रुकना हार है, चलते रहना ही जीत है",
+    "आज की मेहनत, कल की पहचान है",
+    "खुद पर यकीन रखो, रास्ते खुद बनते हैं",
+    "मुश्किलें आती हैं ताकि तुम और मज़बूत बनो",
+    "जो ठान लिया, वो कर दिखाओ"
+  ],
+  "qa": [
+    {"phrases": ["sxt ka matlab", "sxt matlab", "sxt kya hai"], "answer": "SXT ka matlab hai Shivam X Thakur — Think, Understand, Act, Complete. Ye mera apna personal AI assistant hai."},
+    {"phrases": ["feature pack kya hai", "feature pack"], "answer": "Feature Pack ek online file hai jisse mujhe naye features milte hain — nayi motivation lines, ready-made jawab aur naye voice commands — bina naya APK build kiye. Tum bas naya feature bolo, pack badal jayega aur main use khud utha lunga."},
+    {"phrases": ["tumhara version", "kaunsa version", "version kya hai"], "answer": "Main abhi SXT version 7.0 par chal raha hoon — ye wahi version hai jisme Feature Pack system aaya hai."}
+  ],
+  "commands": [
+    {"phrase": "music time", "action": {"action": "open_app", "app": "spotify"}},
+    {"phrase": "video time", "action": {"action": "open_app", "app": "youtube"}}
+  ]
+}
